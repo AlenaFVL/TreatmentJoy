@@ -1,0 +1,54 @@
+
+#line {
+    width: 3.5rem;
+    background-color:black;
+    height: 0.125rem;
+    border-radius: 0.3125rem;
+}
+.a {
+ margin-left: 3rem;
+ margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    #back {
+        display: none ;
+    }   
+
+    #change {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    #change2 {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
+
+    #line {
+        display: none;
+    }
+
+    #card {
+        text-align: center;
+    }
+    
+    .a {
+        margin-left: 8.5rem;
+    }
+
+    #bot {
+        margin-left: 3rem;
+    }
+}
+
+
+
+
+
+
+
